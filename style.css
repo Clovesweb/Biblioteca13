@@ -1,0 +1,170 @@
+html, body, #home {height: 100%; overflow-x: hidden;}
+
+header {padding: auto;}
+header h4 {background-color: #268490; margin-bottom: 0; padding: 5px; text-align: center; color: cyan;}
+.nav-link {align-content: end;}
+.navbar {margin: auto; padding: auto;}
+.navbar-light .navbar-nav .nav-link {color: white;}
+.navbar-light .navbar-nav .nav-link:hover {color: orange;}
+.navbar-light .navbar-toggler {color: rgba(0, 0, 0, o.5); border-color: white;}
+.dropdown-menu {background-color: #268490; border-radius: 6px;}
+.dropdown-item {color: white;}
+.dropdown-item:hover {background: black; color: orange;}
+.divisor {width: 1px; background: white;}
+/*Fim cabeçalho*/
+
+article {margin-left: 20px; margin-right: 20px;}
+.conteudo {margin-top: 5px;}
+#pedagogia {background-color: #f8a54c; margin-left: 10px; margin-right: 30px; margin-bottom: 60px; padding: 10px; border-radius: 10px;}
+#pedagogia h6 {padding-left: 20px; border-bottom: 1px solid white; color: white;}
+article ul {list-style-type: none; margin: 0; padding-left: 10px; border-top: yellow;}
+article ul li {background: url(imagens/seta.png) no-repeat left center; padding-left: 20px; padding-top: 3px; display: block;}
+article ul a li {color: white;}
+article ul a li:hover {background: yellow; text-decoration: underline; color: orange;}
+#bibvirtual {background: #faf0d6; margin-left: 15px; margin-top: 100px; margin-right: 30px; margin-bottom: auto; padding: 10px; border-radius: 10px;}
+#bibvirtual h6 {text-align: center;}
+#acesso {background-color: #f9e5ae; border: 2px solid white; border-radius: 6px; margin-bottom: 10px; padding: 5px;}
+
+#antenado {background-color: #ebe7dd;}
+#antenado h5 {border-radius: 5px; background-color: #b1924f; padding: 3px; text-align: center; color: white;}
+#antenado img {justify-content: center;}
+#acima {background-color: ##ebe7dd;}
+#semana {border: 1px solid #9b7291; background-color: white; padding: 6px; border-radius: 10px;}
+#familia {border: 1px solid #9b7291; background-color: white; padding: 6px; border-radius: 10px;}
+#smile {border: 1px solid #9b7291; background-color: white; padding: 6px; border-radius: 10px;}
+#halloween {border: 1px solid #9b7291; background-color: white; padding: 6px; border-radius: 10px;}
+#africa {border: 1px solid #9b7291; background-color: white; padding: 6px; border-radius: 10px;}
+#cerrado {border: 1px solid #9b7291; background-color: white; padding: 6px; border-radius: 10px;}
+#avisos {background-color: cyan; padding-top: 10px; padding-right: 10px;}
+#info1 {background-color: #ebdef0; border-radius: 15px;}
+#info2 {background-color: #d6eaf8; border-radius: 15px;}
+#info1 h6 {display: flex; justify-content: center; font-size: 1.5em; color: darkmagenta;}
+#info2 h6 {display: flex; justify-content: center; font-size: 1.5em; color: darkblue;}
+#info1 p {background-color: white; border-radius: 10px; padding: 10px; color: blue;}
+#info2 p {background-color: white; border-radius: 10px; padding: 10px; color: darkmagenta;}
+.centro {display: flex; justify-content: center;}
+.space {margin-top: 300px;}
+
+
+
+#novidades {border-radius: 10px; text-align: center; background-color: #d6eaf8; padding-top: 15px; padding-bottom: 10px; margin-left: 50px; margin-right: 50px;}
+#novidades h5 {color: darkorange;}
+#dicas img {height: 200px; width: 150px;}
+#dicas img:hover {transform: scale(1.4);}
+.slider {margin: auto; display: grid;}
+.slide-track {display: flex;}
+.slide {height: 160px; width: 150px; display: flex; padding: 15px; perspective: 50px;}
+
+#container {position: relative; padding: 15px; max-width: 1200px; margin: 0 auto;}
+.gallery {display: flex; flex-flow: row nowrap; gap: 25px;}/* Imagens não quebram para baixo */
+.gallery img {height: 200px; width: 150px;}
+#container button {color: white; font-size: 1.5em;}
+.gallery-wrapper {overflow-x: auto;}
+
+#direcao {background-color: darkblue;}
+#direcao h5 {color: white;}
+#direcao p {color: white;}
+#direcao h2 {color: #b1ebfa;}
+#direcao img {height: 130px; width: 120px; margin-top: 5px;}
+#voltar {color: white;}
+#secretaria {background-color: darkmagenta; color: white; margin-top: 130px;}
+#secretaria p {color: white;}
+#secretaria h5 {color: white;}
+#secretaria img {height: 130px; width: 120px; margin-top: 5px;}
+#secretaria h2 {color: #b1ebfa;}
+#recursos {background-color: darkblue; color: white; margin-top: 230px;}
+#recursos h5 {color: white;}
+#recursos p {color: white;}
+#recursos h2 {color: #b1ebfa;}
+#recursos img {height: 130px; width: 120px; margin-top: 5px;}
+#soe {background-color: darkmagenta; color: white; margin-top: 230px;}
+#soe h5 {color: white;}
+#soe p {color: white;}
+#soe img {height: 130px; width: 120px; margin-top: 5px;}
+#soe h2 {color: #b1ebfa;}
+#eeaa {background-color: darkblue; color: white; margin-top: 230px;}
+#eeaa h5 {color: white;}
+#eeaa p {color: white;}
+#eeaa h2 {color: #b1ebfa;}
+#eeaa img {height: 130px; width: 120px; margin-top: 5px;}
+#interventiva {background-color: darkmagenta; color: white; margin-top: 230px;}
+#interventiva h5 {color: white;}
+#interventiva p {color: white;}
+#interventiva img {height: 130px; width: 120px; margin-top: 5px;}
+#interventiva h2 {color: #b1ebfa;}
+#noturno {background-color: darkblue; color: white; margin-top: 230px;}
+#noturno h5 {color: white;}
+#noturno p {color: white;}
+#noturno h2 {color: #b1ebfa;}
+#noturno img {height: 130px; width: 120px; margin-top: 5px;}
+#terceirizados {background-color: darkmagenta; color: white; margin-top: 230px;}
+#terceirizados h5 {color: white;}
+#terceirizados p {color: white;}
+#terceirizados img {height: 130px; width: 120px; margin-top: 5px;}
+#terceirizados h2 {color: #b1ebfa;}
+
+#emprestimo {margin-top: 15px; }/* Menu serviços */
+#normas {margin-bottom: 100px;}
+.servico1 {background-color: blue; margin-top: 500px; border-radius: 15px; padding-bottom: 20px; padding-top: 30px;}
+.servico1 h2 {color: cyan;}
+.servico1 h5 {color: white;}
+.servico1 p {color: white;}
+.servico2 {background-color: darkmagenta; margin-top: 500px; border-radius: 15px; padding-bottom: 20px; padding-top: 30px;}
+.servico2 h5 {color: white;}
+.servico2 p {color: white;}
+.servico2 h2 {color: cyan;}/* Fim do menu serviços */
+
+
+#agenda {padding-top: 10px; color: white;}
+#agenda h2 {color: cyan;}
+#agenda2 {padding-top: 20px; border-top: solid pink; margin-top: 100px;}
+#calendario {padding-top: 30px; border-top: solid pink; margin-top: 100px; color: cyan;}
+.branco {color: white;}
+
+
+#quem {background-color: purple; color: white;}
+#quem h2 {color: cyan;}
+#quem p {color: white;}
+#quem h5 {color: white;}
+
+#dica1 {background-color: #b1ebfa;}
+#dica1 h2, h5, p {color: blue;}
+#dica2 {padding-top: 100px;}
+.dica2 {margin-top: 200px;}
+
+#roda {text-align: center; background-color: #ebe7dd; margin-top: 100px;}
+.contact-box {padding: 10px; border-bottom: 1px solid #3EC1D5;}
+footer img {height: 50px; width: 50px;}
+.contact-box i {width: 55px; height: 55px; line-height: 45px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+// No media query for `xs` since this is the default in Bootstrap
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {h1 {font-size: 3em;} .btn-custom {margin: 10px 15px;}}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {h1 {font-size: 4em;} .btn-custom {margin: 10px 15px;}}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {h1 {font-size: 5em;}}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {h1 {font-size: 6em;}}
